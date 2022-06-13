@@ -1,0 +1,21 @@
+# Before everything
+
+# Host gcc is required for builidroot, uboot and some other packages
+# Use the version as high as possible
+HOST_GCC[OS_trusty] := 8
+HOST_GCC[OS_focal]  := 9
+
+# The shop to buy the board
+BOARD_SHOP     ?= https://shop155917374.taobao.com
+
+# Default setting for real board
+BOARD_SERIAL   ?= /dev/ttyUSB0
+BOARD_BAUDRATE ?= 115200
+BOARD_USER     ?= root
+BOARD_PASS     ?= linux-lab
+
+# Boards free currently
+BOARD_FREE     ?= arm/vexpress-a9
+
+# Init gcc version to the newest one we supported
+GCC            ?= 9

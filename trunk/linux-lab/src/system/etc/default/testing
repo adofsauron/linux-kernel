@@ -1,0 +1,15 @@
+# Kernel features test service
+
+TOOLS=/tools
+
+START_TESTING=${TOOLS}/testing/start.sh
+STOP_TESTING=${TOOLS}/testing/stop.sh
+REBOOT_COUNT=/reboot_count
+
+BEGIN_ACTION="echo 'begin'"
+END_ACTION="echo 'end'"
+
+POWEROFF_ACTION="poweroff -d 2"
+REBOOT_ACTION="reboot -d 2"
+
+FINISH_ACTION=${POWEROFF_ACTION}

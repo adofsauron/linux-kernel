@@ -1,0 +1,80 @@
+[submodule "qemu"]
+	path = src/qemu
+	url = https://gitee.com/mirrors/qemu.git
+	ignore = all
+[submodule "buildroot"]
+	path = src/buildroot
+	url = https://gitee.com/mirrors/buildroot.git
+	ignore = all
+[submodule "linux-stable"]
+	path = src/linux-stable
+	url = https://kernel.source.codeaurora.cn/pub/scm/linux/kernel/git/stable/linux.git
+	ignore = all
+[submodule "u-boot"]
+	path = src/u-boot
+	url = https://gitee.com/mirrors/u-boot.git
+	ignore = all
+[submodule "boards/aarch64/raspi3/bsp"]
+	ignore = all
+	path = boards/aarch64/raspi3/bsp
+	url = https://gitee.com/tinylab/qemu-aarch64-raspi3.git
+[submodule "boards/aarch64/virt/bsp"]
+	ignore = all
+	path = boards/aarch64/virt/bsp
+	url = https://gitee.com/tinylab/qemu-aarch64-virt.git
+[submodule "boards/arm/versatilepb/bsp"]
+	ignore = all
+	path = boards/arm/versatilepb/bsp
+	url = https://gitee.com/tinylab/qemu-arm-versatilepb.git
+[submodule "boards/arm/vexpress-a9/bsp"]
+	ignore = all
+	path = boards/arm/vexpress-a9/bsp
+	url = https://gitee.com/tinylab/qemu-arm-vexpress-a9.git
+[submodule "boards/i386/pc/bsp"]
+	ignore = all
+	path = boards/i386/pc/bsp
+	url = https://gitee.com/tinylab/qemu-i386-pc.git
+[submodule "boards/mipsel/malta/bsp"]
+	ignore = all
+	path = boards/mipsel/malta/bsp
+	url = https://gitee.com/tinylab/qemu-mipsel-malta.git
+[submodule "boards/ppc/g3beige/bsp"]
+	ignore = all
+	path = boards/ppc/g3beige/bsp
+	url = https://gitee.com/tinylab/qemu-ppc-g3beige.git
+[submodule "boards/riscv32/virt/bsp"]
+	ignore = all
+	path = boards/riscv32/virt/bsp
+	url = https://gitee.com/tinylab/qemu-riscv32-virt.git
+[submodule "boards/riscv64/virt/bsp"]
+	ignore = all
+	path = boards/riscv64/virt/bsp
+	url = https://gitee.com/tinylab/qemu-riscv64-virt.git
+[submodule "boards/x86_64/pc/bsp"]
+	ignore = all
+	path = boards/x86_64/pc/bsp
+	url = https://gitee.com/tinylab/qemu-x86_64-pc.git
+[submodule "boards/arm/mcimx6ul-evk/bsp"]
+	ignore = all
+	path = boards/arm/mcimx6ul-evk/bsp
+	url = https://gitee.com/tinylab/qemu-arm-mcimx6ul-evk.git
+[submodule "boards/mipsel/ls1b/bsp"]
+	ignore = all
+	path = boards/mipsel/ls1b/bsp
+	url = https://gitee.com/tinylab/qemu-mipsel-ls1b.git
+[submodule "boards/mips64el/ls2k/bsp"]
+	ignore = all
+	path = boards/mips64el/ls2k/bsp
+	url = https://gitee.com/tinylab/qemu-mips64el-ls2k.git
+[submodule "boards/mips64el/ls3a7a/bsp"]
+	ignore = all
+	path = boards/mips64el/ls3a7a/bsp
+	url = https://gitee.com/tinylab/qemu-mips64el-ls3a7a.git
+[submodule "boards/mipsel/ls232/bsp"]
+	ignore = all
+	path = boards/mipsel/ls232/bsp
+	url = https://gitee.com/tinylab/qemu-mipsel-ls232.git
+[submodule "boards/arm/ebf-imx6ull/bsp"]
+	ignore = all
+	path = boards/arm/ebf-imx6ull/bsp
+	url = https://gitee.com/tinylab/ebf-imx6ull.git
