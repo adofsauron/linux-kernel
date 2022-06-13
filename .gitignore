@@ -1,0 +1,6 @@
+.vscode/
+.vs/
+sln/aufs/.vs/
+sln/aufs/obj/
+sln/aufs/bin/
+3rd/ceph-17.2.0/out
